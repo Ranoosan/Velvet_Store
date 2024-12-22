@@ -1,0 +1,90 @@
+/* main_styles.css */
+
+/* General body styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4; /* Light gray background */
+    margin: 0;
+    padding: 0;
+}
+
+/* Navbar styling */
+nav {
+    background-color: #333; /* Dark background color */
+    padding: 10px; /* Padding around the navbar */
+    text-align: right; /* Right align the links */
+    font-family: Arial, sans-serif; /* Set the font */
+}
+
+nav a {
+    color: white; /* White text color */
+    text-decoration: none; /* Remove underline from links */
+    margin: 0 15px; /* Space between the links */
+    font-size: 16px; /* Set font size */
+}
+
+nav a:hover {
+    color: #ff9800; /* Change color to orange on hover */
+}
+
+nav a.active {
+    color: #ff9800; /* Highlight the active link with orange */
+}
+
+/* Page content styling */
+h1 {
+    text-align: center;
+    font-size: 36px;
+    color: #333;
+    margin-top: 50px;
+}
+
+p {
+    font-size: 18px;
+    color: #333;
+    text-align: center;
+}
+
+/* Form styling */
+form {
+    width: 300px;
+    margin: 20px auto;
+    background-color: white;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+form input[type="email"],
+form input[type="text"],
+form input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+form button {
+    width: 100%;
+    padding: 10px;
+    background-color: #333;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+form button:hover {
+    background-color: #ff9800; /* Change to orange on hover */
+}
+
+/* Center the login/register links */
+a {
+    color: #333;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #ff9800; /* Change to orange on hover */
+}

@@ -1,0 +1,78 @@
+/* admin_styles.css */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Sidebar styling */
+aside {
+    width: 250px;
+    height: 100%;
+    background-color: #333;
+    color: white;
+    padding: 20px;
+    position: fixed;
+    left: 0;
+    top: 0;
+}
+
+aside h2 {
+    color: white;
+    margin-bottom: 20px;
+}
+
+aside ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+aside ul li {
+    margin: 10px 0;
+}
+
+aside ul li a {
+    color: white;
+    text-decoration: none;
+    padding: 10px 0;
+    display: block;
+    transition: background-color 0.3s;
+}
+
+aside ul li a:hover {
+    background-color: #575757;
+}
+
+/* Main content styling */
+div {
+    margin-left: 270px;
+    padding: 20px;
+}
+
+div h1 {
+    margin-bottom: 20px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+table th, table td {
+    padding: 10px;
+    text-align: left;
+    border: 1px solid #ddd;
+}
+
+table th {
+    background-color: #f4f4f4;
+}
+
+table a {
+    text-decoration: none;
+    color: #333;
+}
+
+table a:hover {
+    color: #007BFF;
+}
